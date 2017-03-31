@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		979AFA8E1E8DF6E2004D3834 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 979AFA8D1E8DF6E2004D3834 /* main.m */; };
+		979AFA911E8DF6E2004D3834 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 979AFA901E8DF6E2004D3834 /* AppDelegate.m */; };
+		979AFA941E8DF6E2004D3834 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 979AFA931E8DF6E2004D3834 /* ViewController.m */; };
+		979AFA971E8DF6E2004D3834 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 979AFA951E8DF6E2004D3834 /* Main.storyboard */; };
+		979AFA991E8DF6E2004D3834 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 979AFA981E8DF6E2004D3834 /* Assets.xcassets */; };
+		979AFA9C1E8DF6E2004D3834 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 979AFA9A1E8DF6E2004D3834 /* LaunchScreen.storyboard */; };
+		979AFAA71E8DF6E2004D3834 /* BelleFMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 979AFAA61E8DF6E2004D3834 /* BelleFMTests.m */; };
+		979AFAB21E8DF6E2004D3834 /* BelleFMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 979AFAB11E8DF6E2004D3834 /* BelleFMUITests.m */; };
+		979AFAC31E8DF89B004D3834 /* BelleNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 979AFAC21E8DF89B004D3834 /* BelleNavBar.m */; };
+		979AFAC61E8E0071004D3834 /* BelleTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 979AFAC51E8E0071004D3834 /* BelleTabBar.m */; };
+		979AFACC1E8E497A004D3834 /* CALayer+PauseAimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 979AFACB1E8E497A004D3834 /* CALayer+PauseAimate.m */; };
+		979AFACF1E8E4F76004D3834 /* UIImage+BelleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 979AFACE1E8E4F76004D3834 /* UIImage+BelleImage.m */; };
+		979AFAD21E8E583D004D3834 /* UIView+BelleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 979AFAD11E8E583D004D3834 /* UIView+BelleLayout.m */; };
+		979AFAD61E8E5D78004D3834 /* BelleNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 979AFAD51E8E5D78004D3834 /* BelleNavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		979AFAA31E8DF6E2004D3834 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 979AFA811E8DF6E2004D3834 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 979AFA881E8DF6E2004D3834;
+			remoteInfo = BelleFM;
+		};
+		979AFAAE1E8DF6E2004D3834 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 979AFA811E8DF6E2004D3834 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 979AFA881E8DF6E2004D3834;
+			remoteInfo = BelleFM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		979AFA891E8DF6E2004D3834 /* BelleFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BelleFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		979AFA8D1E8DF6E2004D3834 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		979AFA8F1E8DF6E2004D3834 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		979AFA901E8DF6E2004D3834 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		979AFA921E8DF6E2004D3834 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		979AFA931E8DF6E2004D3834 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		979AFA961E8DF6E2004D3834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		979AFA981E8DF6E2004D3834 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		979AFA9B1E8DF6E2004D3834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		979AFA9D1E8DF6E2004D3834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		979AFAA21E8DF6E2004D3834 /* BelleFMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BelleFMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		979AFAA61E8DF6E2004D3834 /* BelleFMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BelleFMTests.m; sourceTree = "<group>"; };
+		979AFAA81E8DF6E2004D3834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		979AFAAD1E8DF6E2004D3834 /* BelleFMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BelleFMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		979AFAB11E8DF6E2004D3834 /* BelleFMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BelleFMUITests.m; sourceTree = "<group>"; };
+		979AFAB31E8DF6E2004D3834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		979AFAC11E8DF89B004D3834 /* BelleNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BelleNavBar.h; sourceTree = "<group>"; };
+		979AFAC21E8DF89B004D3834 /* BelleNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BelleNavBar.m; sourceTree = "<group>"; };
+		979AFAC41E8E0071004D3834 /* BelleTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BelleTabBar.h; sourceTree = "<group>"; };
+		979AFAC51E8E0071004D3834 /* BelleTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BelleTabBar.m; sourceTree = "<group>"; };
+		979AFACA1E8E497A004D3834 /* CALayer+PauseAimate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+PauseAimate.h"; sourceTree = "<group>"; };
+		979AFACB1E8E497A004D3834 /* CALayer+PauseAimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+PauseAimate.m"; sourceTree = "<group>"; };
+		979AFACD1E8E4F76004D3834 /* UIImage+BelleImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BelleImage.h"; sourceTree = "<group>"; };
+		979AFACE1E8E4F76004D3834 /* UIImage+BelleImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BelleImage.m"; sourceTree = "<group>"; };
+		979AFAD01E8E583D004D3834 /* UIView+BelleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BelleLayout.h"; sourceTree = "<group>"; };
+		979AFAD11E8E583D004D3834 /* UIView+BelleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BelleLayout.m"; sourceTree = "<group>"; };
+		979AFAD41E8E5D78004D3834 /* BelleNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BelleNavigationController.h; sourceTree = "<group>"; };
+		979AFAD51E8E5D78004D3834 /* BelleNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BelleNavigationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		979AFA861E8DF6E2004D3834 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979AFA9F1E8DF6E2004D3834 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979AFAAA1E8DF6E2004D3834 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		979AFA801E8DF6E2004D3834 = {
+			isa = PBXGroup;
+			children = (
+				979AFAD31E8E5D3C004D3834 /* Controller */,
+				979AFAC91E8E4914004D3834 /* Category */,
+				979AFAC01E8DF86F004D3834 /* View */,
+				979AFA8B1E8DF6E2004D3834 /* BelleFM */,
+				979AFAA51E8DF6E2004D3834 /* BelleFMTests */,
+				979AFAB01E8DF6E2004D3834 /* BelleFMUITests */,
+				979AFA8A1E8DF6E2004D3834 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		979AFA8A1E8DF6E2004D3834 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				979AFA891E8DF6E2004D3834 /* BelleFM.app */,
+				979AFAA21E8DF6E2004D3834 /* BelleFMTests.xctest */,
+				979AFAAD1E8DF6E2004D3834 /* BelleFMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		979AFA8B1E8DF6E2004D3834 /* BelleFM */ = {
+			isa = PBXGroup;
+			children = (
+				979AFA8F1E8DF6E2004D3834 /* AppDelegate.h */,
+				979AFA901E8DF6E2004D3834 /* AppDelegate.m */,
+				979AFA921E8DF6E2004D3834 /* ViewController.h */,
+				979AFA931E8DF6E2004D3834 /* ViewController.m */,
+				979AFA951E8DF6E2004D3834 /* Main.storyboard */,
+				979AFA981E8DF6E2004D3834 /* Assets.xcassets */,
+				979AFA9A1E8DF6E2004D3834 /* LaunchScreen.storyboard */,
+				979AFA9D1E8DF6E2004D3834 /* Info.plist */,
+				979AFA8C1E8DF6E2004D3834 /* Supporting Files */,
+			);
+			path = BelleFM;
+			sourceTree = "<group>";
+		};
+		979AFA8C1E8DF6E2004D3834 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				979AFA8D1E8DF6E2004D3834 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		979AFAA51E8DF6E2004D3834 /* BelleFMTests */ = {
+			isa = PBXGroup;
+			children = (
+				979AFAA61E8DF6E2004D3834 /* BelleFMTests.m */,
+				979AFAA81E8DF6E2004D3834 /* Info.plist */,
+			);
+			path = BelleFMTests;
+			sourceTree = "<group>";
+		};
+		979AFAB01E8DF6E2004D3834 /* BelleFMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				979AFAB11E8DF6E2004D3834 /* BelleFMUITests.m */,
+				979AFAB31E8DF6E2004D3834 /* Info.plist */,
+			);
+			path = BelleFMUITests;
+			sourceTree = "<group>";
+		};
+		979AFAC01E8DF86F004D3834 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				979AFAC11E8DF89B004D3834 /* BelleNavBar.h */,
+				979AFAC21E8DF89B004D3834 /* BelleNavBar.m */,
+				979AFAC41E8E0071004D3834 /* BelleTabBar.h */,
+				979AFAC51E8E0071004D3834 /* BelleTabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		979AFAC91E8E4914004D3834 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				979AFACA1E8E497A004D3834 /* CALayer+PauseAimate.h */,
+				979AFACB1E8E497A004D3834 /* CALayer+PauseAimate.m */,
+				979AFACD1E8E4F76004D3834 /* UIImage+BelleImage.h */,
+				979AFACE1E8E4F76004D3834 /* UIImage+BelleImage.m */,
+				979AFAD01E8E583D004D3834 /* UIView+BelleLayout.h */,
+				979AFAD11E8E583D004D3834 /* UIView+BelleLayout.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		979AFAD31E8E5D3C004D3834 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				979AFAD41E8E5D78004D3834 /* BelleNavigationController.h */,
+				979AFAD51E8E5D78004D3834 /* BelleNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		979AFA881E8DF6E2004D3834 /* BelleFM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 979AFAB61E8DF6E2004D3834 /* Build configuration list for PBXNativeTarget "BelleFM" */;
+			buildPhases = (
+				979AFA851E8DF6E2004D3834 /* Sources */,
+				979AFA861E8DF6E2004D3834 /* Frameworks */,
+				979AFA871E8DF6E2004D3834 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BelleFM;
+			productName = BelleFM;
+			productReference = 979AFA891E8DF6E2004D3834 /* BelleFM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		979AFAA11E8DF6E2004D3834 /* BelleFMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 979AFAB91E8DF6E2004D3834 /* Build configuration list for PBXNativeTarget "BelleFMTests" */;
+			buildPhases = (
+				979AFA9E1E8DF6E2004D3834 /* Sources */,
+				979AFA9F1E8DF6E2004D3834 /* Frameworks */,
+				979AFAA01E8DF6E2004D3834 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				979AFAA41E8DF6E2004D3834 /* PBXTargetDependency */,
+			);
+			name = BelleFMTests;
+			productName = BelleFMTests;
+			productReference = 979AFAA21E8DF6E2004D3834 /* BelleFMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		979AFAAC1E8DF6E2004D3834 /* BelleFMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 979AFABC1E8DF6E2004D3834 /* Build configuration list for PBXNativeTarget "BelleFMUITests" */;
+			buildPhases = (
+				979AFAA91E8DF6E2004D3834 /* Sources */,
+				979AFAAA1E8DF6E2004D3834 /* Frameworks */,
+				979AFAAB1E8DF6E2004D3834 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				979AFAAF1E8DF6E2004D3834 /* PBXTargetDependency */,
+			);
+			name = BelleFMUITests;
+			productName = BelleFMUITests;
+			productReference = 979AFAAD1E8DF6E2004D3834 /* BelleFMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		979AFA811E8DF6E2004D3834 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = October;
+				TargetAttributes = {
+					979AFA881E8DF6E2004D3834 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 825675KB77;
+						ProvisioningStyle = Automatic;
+					};
+					979AFAA11E8DF6E2004D3834 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 825675KB77;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 979AFA881E8DF6E2004D3834;
+					};
+					979AFAAC1E8DF6E2004D3834 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 825675KB77;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 979AFA881E8DF6E2004D3834;
+					};
+				};
+			};
+			buildConfigurationList = 979AFA841E8DF6E2004D3834 /* Build configuration list for PBXProject "BelleFM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 979AFA801E8DF6E2004D3834;
+			productRefGroup = 979AFA8A1E8DF6E2004D3834 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				979AFA881E8DF6E2004D3834 /* BelleFM */,
+				979AFAA11E8DF6E2004D3834 /* BelleFMTests */,
+				979AFAAC1E8DF6E2004D3834 /* BelleFMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		979AFA871E8DF6E2004D3834 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979AFA9C1E8DF6E2004D3834 /* LaunchScreen.storyboard in Resources */,
+				979AFA991E8DF6E2004D3834 /* Assets.xcassets in Resources */,
+				979AFA971E8DF6E2004D3834 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979AFAA01E8DF6E2004D3834 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979AFAAB1E8DF6E2004D3834 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		979AFA851E8DF6E2004D3834 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979AFA941E8DF6E2004D3834 /* ViewController.m in Sources */,
+				979AFACC1E8E497A004D3834 /* CALayer+PauseAimate.m in Sources */,
+				979AFACF1E8E4F76004D3834 /* UIImage+BelleImage.m in Sources */,
+				979AFAC61E8E0071004D3834 /* BelleTabBar.m in Sources */,
+				979AFA911E8DF6E2004D3834 /* AppDelegate.m in Sources */,
+				979AFAD21E8E583D004D3834 /* UIView+BelleLayout.m in Sources */,
+				979AFAC31E8DF89B004D3834 /* BelleNavBar.m in Sources */,
+				979AFA8E1E8DF6E2004D3834 /* main.m in Sources */,
+				979AFAD61E8E5D78004D3834 /* BelleNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979AFA9E1E8DF6E2004D3834 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979AFAA71E8DF6E2004D3834 /* BelleFMTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979AFAA91E8DF6E2004D3834 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979AFAB21E8DF6E2004D3834 /* BelleFMUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		979AFAA41E8DF6E2004D3834 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 979AFA881E8DF6E2004D3834 /* BelleFM */;
+			targetProxy = 979AFAA31E8DF6E2004D3834 /* PBXContainerItemProxy */;
+		};
+		979AFAAF1E8DF6E2004D3834 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 979AFA881E8DF6E2004D3834 /* BelleFM */;
+			targetProxy = 979AFAAE1E8DF6E2004D3834 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		979AFA951E8DF6E2004D3834 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				979AFA961E8DF6E2004D3834 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		979AFA9A1E8DF6E2004D3834 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				979AFA9B1E8DF6E2004D3834 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		979AFAB41E8DF6E2004D3834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		979AFAB51E8DF6E2004D3834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		979AFAB71E8DF6E2004D3834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 825675KB77;
+				INFOPLIST_FILE = BelleFM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tophealth.BelleFM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		979AFAB81E8DF6E2004D3834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 825675KB77;
+				INFOPLIST_FILE = BelleFM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tophealth.BelleFM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		979AFABA1E8DF6E2004D3834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 825675KB77;
+				INFOPLIST_FILE = BelleFMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tophealth.BelleFMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BelleFM.app/BelleFM";
+			};
+			name = Debug;
+		};
+		979AFABB1E8DF6E2004D3834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 825675KB77;
+				INFOPLIST_FILE = BelleFMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tophealth.BelleFMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BelleFM.app/BelleFM";
+			};
+			name = Release;
+		};
+		979AFABD1E8DF6E2004D3834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 825675KB77;
+				INFOPLIST_FILE = BelleFMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tophealth.BelleFMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BelleFM;
+			};
+			name = Debug;
+		};
+		979AFABE1E8DF6E2004D3834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 825675KB77;
+				INFOPLIST_FILE = BelleFMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tophealth.BelleFMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BelleFM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		979AFA841E8DF6E2004D3834 /* Build configuration list for PBXProject "BelleFM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979AFAB41E8DF6E2004D3834 /* Debug */,
+				979AFAB51E8DF6E2004D3834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		979AFAB61E8DF6E2004D3834 /* Build configuration list for PBXNativeTarget "BelleFM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979AFAB71E8DF6E2004D3834 /* Debug */,
+				979AFAB81E8DF6E2004D3834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		979AFAB91E8DF6E2004D3834 /* Build configuration list for PBXNativeTarget "BelleFMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979AFABA1E8DF6E2004D3834 /* Debug */,
+				979AFABB1E8DF6E2004D3834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		979AFABC1E8DF6E2004D3834 /* Build configuration list for PBXNativeTarget "BelleFMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979AFABD1E8DF6E2004D3834 /* Debug */,
+				979AFABE1E8DF6E2004D3834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 979AFA811E8DF6E2004D3834 /* Project object */;
+}
