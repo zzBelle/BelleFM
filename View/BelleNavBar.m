@@ -24,8 +24,8 @@
         
         fontSize = 16;
     }
-//    UINavigationBar *navigationBar = [UINavigationBar appearanceWhenContainedIn:NSClassFromString(@"ViewController"), nil]; 9.0 使用如下
-    UINavigationBar *navigationBar = [UINavigationBar appearanceWhenContainedInInstancesOfClasses:@[[UIViewController class]]];
+    UINavigationBar *navigationBar = [UINavigationBar appearanceWhenContainedIn:NSClassFromString(@"ViewController"), nil];// 9.0 使用如下
+//    UINavigationBar *navigationBar = [UINavigationBar appearanceWhenContainedInInstancesOfClasses:@[[UIViewController class]]];
     NSDictionary *titleDic = @{NSForegroundColorAttributeName: globalTextColor,
                                NSFontAttributeName: [UIFont systemFontOfSize:fontSize]
                                };

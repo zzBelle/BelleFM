@@ -8,7 +8,7 @@
 
 #import "BelleNavigationController.h"
 #import "BelleNavBar.h"
-
+#import "BelleMiddleView.h"
 @interface BelleNavigationController ()<UIGestureRecognizerDelegate>
 
 @end
@@ -57,8 +57,37 @@
     }
     //  不能忘记push
     [super pushViewController:viewController animated:animated];
+    if (viewController.view.tag == 1000) {
+        viewController.view.tag = 2000;
+       BelleMiddleView  *middleView = [BelleMiddleView middleView];
+        
+        middleView.middleClickBlock = [BelleMiddleView shareInstance].middleClickBlock;
+        middleView.isPlaying = [BelleMiddleView shareInstance].isPlaying;
+        middleView.middleImg = [BelleMiddleView shareInstance].middleImg;
+        
+        CGRect frame = middleView.frame;
+        frame.size.width = 65;
+        frame.size.height = 65;
+        CGSize screenSize = [UIScreen mainScreen].bounds.size;
+        frame.origin.x = (screenSize.width - 65) * 0.5;
+        frame.origin.y = screenSize.height - 65;
+        middleView.frame = frame;
+        [viewController.view addSubview:middleView];
+        
+    }
+
     
 }
+
+#pragma mark - UIGestureRecognizerDelegate
+- (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer {
+   //如果根控制器也要返回手势就会假死 所以要过滤根控制器
+    if (self.childViewControllers.count == 1) {
+        return NO;
+    }
+    return YES;
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

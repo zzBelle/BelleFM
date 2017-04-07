@@ -10,4 +10,9 @@
 
 @interface BelleTabBar : UITabBar
 
+/**
+ 点击中间的按钮执行代码块
+ */
+@property (nonatomic, copy) void(^middleClickBlock)(BOOL isPlaying);
+
 @end

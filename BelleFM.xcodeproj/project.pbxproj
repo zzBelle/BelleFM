@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		971E34F61E9495AB008EE5E9 /* BelleTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 971E34F51E9495AB008EE5E9 /* BelleTabBarController.m */; };
+		971E34F91E94BBC8008EE5E9 /* BelleMiddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 971E34F81E94BBC8008EE5E9 /* BelleMiddleView.m */; };
+		971E34FB1E94BBD9008EE5E9 /* BelleMiddleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 971E34FA1E94BBD9008EE5E9 /* BelleMiddleView.xib */; };
 		979AFA8E1E8DF6E2004D3834 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 979AFA8D1E8DF6E2004D3834 /* main.m */; };
 		979AFA911E8DF6E2004D3834 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 979AFA901E8DF6E2004D3834 /* AppDelegate.m */; };
 		979AFA941E8DF6E2004D3834 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 979AFA931E8DF6E2004D3834 /* ViewController.m */; };
@@ -41,6 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		971E34F41E9495AB008EE5E9 /* BelleTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BelleTabBarController.h; sourceTree = "<group>"; };
+		971E34F51E9495AB008EE5E9 /* BelleTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BelleTabBarController.m; sourceTree = "<group>"; };
+		971E34F71E94BBC8008EE5E9 /* BelleMiddleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BelleMiddleView.h; sourceTree = "<group>"; };
+		971E34F81E94BBC8008EE5E9 /* BelleMiddleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BelleMiddleView.m; sourceTree = "<group>"; };
+		971E34FA1E94BBD9008EE5E9 /* BelleMiddleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BelleMiddleView.xib; sourceTree = "<group>"; };
 		979AFA891E8DF6E2004D3834 /* BelleFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BelleFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		979AFA8D1E8DF6E2004D3834 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		979AFA8F1E8DF6E2004D3834 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -168,6 +176,9 @@
 				979AFAC21E8DF89B004D3834 /* BelleNavBar.m */,
 				979AFAC41E8E0071004D3834 /* BelleTabBar.h */,
 				979AFAC51E8E0071004D3834 /* BelleTabBar.m */,
+				971E34F71E94BBC8008EE5E9 /* BelleMiddleView.h */,
+				971E34F81E94BBC8008EE5E9 /* BelleMiddleView.m */,
+				971E34FA1E94BBD9008EE5E9 /* BelleMiddleView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -190,6 +201,8 @@
 			children = (
 				979AFAD41E8E5D78004D3834 /* BelleNavigationController.h */,
 				979AFAD51E8E5D78004D3834 /* BelleNavigationController.m */,
+				971E34F41E9495AB008EE5E9 /* BelleTabBarController.h */,
+				971E34F51E9495AB008EE5E9 /* BelleTabBarController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -305,6 +318,7 @@
 			files = (
 				979AFA9C1E8DF6E2004D3834 /* LaunchScreen.storyboard in Resources */,
 				979AFA991E8DF6E2004D3834 /* Assets.xcassets in Resources */,
+				971E34FB1E94BBD9008EE5E9 /* BelleMiddleView.xib in Resources */,
 				979AFA971E8DF6E2004D3834 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,9 +345,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				979AFA941E8DF6E2004D3834 /* ViewController.m in Sources */,
+				971E34F91E94BBC8008EE5E9 /* BelleMiddleView.m in Sources */,
 				979AFACC1E8E497A004D3834 /* CALayer+PauseAimate.m in Sources */,
 				979AFACF1E8E4F76004D3834 /* UIImage+BelleImage.m in Sources */,
 				979AFAC61E8E0071004D3834 /* BelleTabBar.m in Sources */,
+				971E34F61E9495AB008EE5E9 /* BelleTabBarController.m in Sources */,
 				979AFA911E8DF6E2004D3834 /* AppDelegate.m in Sources */,
 				979AFAD21E8E583D004D3834 /* UIView+BelleLayout.m in Sources */,
 				979AFAC31E8DF89B004D3834 /* BelleNavBar.m in Sources */,
